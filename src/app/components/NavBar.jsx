@@ -16,7 +16,7 @@ const NavBar = () => {
         <div className="flex gap-3.5 items-center">
           <ul className="flex gap-3.5 items-center font-medium ">
             <li>
-              <Link href="" className="hover:text-[#4338CA] hover:font-semibold transition-all duration-150">
+              <Link href="/" className="hover:text-[#4338CA] hover:font-semibold transition-all duration-150">
                 HOME
               </Link>
             </li>
