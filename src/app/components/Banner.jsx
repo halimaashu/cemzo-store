@@ -22,8 +22,8 @@ const Banner = () => {
         </h1>
 
         <p className="text-lg md:text-xl font-medium text-gray-600 max-w-md">
-          Browse trending products, compare prices, and discover the best
-          deals all in one place.
+          Browse trending products, compare prices, and discover the best deals
+          all in one place.
         </p>
 
         <div className="flex flex-wrap items-center gap-4 mt-2">
@@ -59,7 +59,6 @@ const Banner = () => {
           fill
           className="object-cover md:rounded-l-[3rem]"
           alt="hero bg"
-          
           priority
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent md:rounded-l-[3rem]" />

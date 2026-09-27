@@ -2,6 +2,7 @@ import React from "react";
 import { IoMenu } from "react-icons/io5";
 import { Rocket } from "@gravity-ui/icons";
 import { Button, Modal } from "@heroui/react";
+import Link from "next/link";
 const NavBar = () => {
   return (
     <nav className="px-10 py-5 shadow-2xl sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b">
@@ -15,20 +16,20 @@ const NavBar = () => {
         <div className="flex gap-3.5 items-center">
           <ul className="flex gap-3.5 items-center font-medium ">
             <li>
-              <a href="" className="hover:text-[#4338CA] hover:font-semibold transition-all duration-150">
+              <Link href="" className="hover:text-[#4338CA] hover:font-semibold transition-all duration-150">
                 HOME
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="" className="hover:text-[#4338CA] hover:font-semibold transition-all duration-150">
+              <Link href="/allProducts" className="hover:text-[#4338CA] hover:font-semibold transition-all duration-150">
                 ALL PRODUCT
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a href="" className="hover:text-[#4338CA] hover:font-semibold transition-all duration-150">
+              <Link href="" className="hover:text-[#4338CA] hover:font-semibold transition-all duration-150">
                 CONTACT
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
