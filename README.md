@@ -4,7 +4,7 @@ A responsive product listing application built with Next.js and Tailwind CSS. Th
 
 ## Live Demo
 
-https://your-vercel-link.vercel.app
+https://cemzo-store-self.vercel.app/
 
 ## Features
 
