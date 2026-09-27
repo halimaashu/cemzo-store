@@ -27,7 +27,7 @@ const NavBar = () => {
             </li>
 
             <li>
-              <Link href="" className="hover:text-[#4338CA] hover:font-semibold transition-all duration-150">
+              <Link href="/contact" className="hover:text-[#4338CA] hover:font-semibold transition-all duration-150">
                 CONTACT
               </Link>
             </li>

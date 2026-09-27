@@ -1,6 +1,8 @@
+'use client'
 import { Button, Card } from "@heroui/react";
 import Image from "next/image";
 import Link from "next/link";
+import toast from "react-hot-toast";
 import { CiStar } from "react-icons/ci";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -62,8 +64,11 @@ const ComponentCard = ({ product }) => {
           </span>
         </div>
         <div className="flex justify-between mt-3 ">
-            <Button className={"font-semibold text-white px-6 py-3 rounded-full bg-[#4338CA] shadow-lg shadow-indigo-300 hover:bg-[#3730A3] hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"}>Buy Naw <FaArrowRight /></Button>
-            <Button className={"font-semibold bg-white text-[#4338CA] px-8 py-3.5 rounded-full border-2 border-[#4338CA] hover:bg-indigo-50 transition-colors duration-200 "}><CiStar size={70} className="text-yellow-500 font-black" /> wish list</Button>
+          <Link  href={`/allProducts/${product.id}`}>
+         
+         <Button className={"font-semibold text-white px-6 py-3 rounded-full bg-[#4338CA] shadow-lg shadow-indigo-300 hover:bg-[#3730A3] hover:shadow-xl hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"}>View Details<FaArrowRight /></Button>
+          </Link>
+            <Button className={"font-semibold bg-white text-[#4338CA] px-8 py-3.5 rounded-full border-2 border-[#4338CA] hover:bg-indigo-50 transition-colors duration-200 "} onClick={()=>{toast.success(`${product.title} is Add to wish List Success full`)}}><CiStar size={70} className="text-yellow-500 font-black" /> wish list</Button>
         </div>
       </Card>
     </div>

@@ -129,7 +129,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-xs text-gray-400 hover:text-[#ff551f] transition-all duration-200 hover:pl-1 flex items-center"
+                    className="text-xs text-gray-400 hover:text-[#4338CA] transition-all duration-200 hover:pl-1 flex items-center"
                   >
                     {link.name}
                   </Link>
@@ -146,7 +146,7 @@ const Footer = () => {
             <ul className="space-y-3 text-xs text-gray-400 font-medium">
               <li className="flex items-center gap-2.5 group">
                 <MapPin
-                  className="text-[#ff551f] opacity-80 group-hover:scale-110 transition-transform"
+                  className="text-[#4338CA] opacity-80 group-hover:scale-110 transition-transform"
                   width={14}
                   height={14}
                 />
@@ -156,7 +156,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2.5 group">
                 <Handset
-                  className="text-[#ff551f] opacity-80 group-hover:scale-110 transition-transform"
+                  className="text-[#4338CA] opacity-80 group-hover:scale-110 transition-transform"
                   width={14}
                   height={14}
                 />
@@ -166,7 +166,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2.5 group">
                 <Envelope
-                  className="text-[#ff551f] opacity-80 group-hover:scale-110 transition-transform"
+                  className="text-[#4338CA] opacity-80 group-hover:scale-110 transition-transform"
                   width={14}
                   height={14}
                 />
@@ -188,7 +188,7 @@ const Footer = () => {
                   key={social.name}
                   isIconOnly
                   aria-label={social.name}
-                  className="w-9 h-9 rounded-xl min-w-9 bg-[#12161F] text-gray-400 hover:text-[#ff551f] border border-[#1E2433] hover:border-[#ff551f]/40 hover:shadow-[0_0_12px_rgba(0,229,255,0.15)] transition-all duration-300"
+                  className="w-9 h-9 rounded-xl min-w-9 bg-[#12161F] text-gray-400 hover:text-[#4338CA] border border-[#1E2433] hover:border-[#ff551f]/40 hover:shadow-[0_0_12px_rgba(0,229,255,0.15)] transition-all duration-300"
                   as={Link}
                   href={social.href}
                   target="_blank"

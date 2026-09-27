@@ -3,6 +3,7 @@ import "./globals.css";
 
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
+import { Toaster } from "react-hot-toast";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <header><NavBar/></header>
         <main>{children}</main>
         <footer><Footer/></footer>
+         <Toaster />
       </body>
     </html>
   );
